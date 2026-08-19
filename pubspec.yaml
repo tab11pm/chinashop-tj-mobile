@@ -1,0 +1,83 @@
+name: pinshop_tj
+description: ChinaShop TJ mobile client — Tajik-language dropshipping app with Pinduoduo catalog, Korti Milli payments, and tj/ru/en i18n.
+publish_to: 'none'
+version: 1.0.5+6
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^3.0.0
+  riverpod_annotation: ^3.0.0
+
+  # HTTP client — JWT-refresh interceptor + {error,code} mapping
+  dio: ^5.0.0
+
+  # Encrypted token + locale storage (AES-CBC / Android KeyStore / iOS Keychain)
+  # NEVER use SharedPreferences — tokens are secrets (per D-06, RESEARCH.md Pitfall 7)
+  flutter_secure_storage: ^10.3.1
+
+  # Declarative routing
+  go_router: ^14.0.0
+
+  # Product image caching for catalog
+  cached_network_image: ^3.0.0
+  pretty_qr_code: ^3.6.0
+  screen_brightness: ^2.1.11
+
+  # i18n message formatting (l10n delegates + gen-l10n)
+  intl: ^0.20.2
+  url_launcher: ^6.3.2
+  image_picker: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.0
+  riverpod_generator: ^3.0.0
+  flutter_lints: ^4.0.0
+
+flutter:
+  # Enables flutter gen-l10n code generation from lib/l10n/*.arb
+  generate: true
+  uses-material-design: true
+  fonts:
+    # Body / UI text ramp (full Cyrillic — tj/ru). UI-SPEC Typography.
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Manrope-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Manrope-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Manrope-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Manrope-ExtraBold.ttf
+          weight: 800
+    # Headings / chrome / tracking ramp (grotesk role — Onest, NOT Space Grotesk; D-04a).
+    - family: Onest
+      fonts:
+        - asset: assets/fonts/Onest-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Onest-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Onest-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Onest-Bold.ttf
+          weight: 700
+    # Numeric / price accent ramp.
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Nunito-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Nunito-Black.ttf
+          weight: 900

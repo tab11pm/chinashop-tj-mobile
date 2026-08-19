@@ -1,0 +1,1757 @@
+{
+  "@@locale": "en",
+  "appTitle": "ChinaShop TJ",
+  "orderActiveItems": "Active items",
+  "orderCancelledItems": "Cancelled items",
+  "orderOriginalTotal": "Original total",
+  "orderCurrentTotal": "Current total",
+  "orderCancelledTotal": "Cancelled total",
+  "orderRefundedTotal": "Refunded total",
+  "orderCancelledItemCount": "{count, plural, one {{count} cancelled item} other {{count} cancelled items}}",
+  "@orderCancelledItemCount": { "placeholders": { "count": { "type": "int" } } },
+  "refundStatusPending": "Refund pending",
+  "refundStatusFailed": "Refund failed",
+  "refundStatusManualRequired": "Manual refund required",
+  "refundStatusSucceeded": "Refund completed",
+  "cancellationReasonLogisticsRestricted": "Logistics restricted",
+  "cancellationReasonPartnerRejected": "Partner rejected",
+  "cancellationReasonOutOfStock": "Out of stock",
+  "cancellationReasonCompliance": "Compliance",
+  "cancellationReasonOther": "Other",
+  "notificationsTitle": "Notifications",
+  "notificationsEmpty": "No notifications yet",
+  "notificationItemCancelled": "Order item cancelled",
+  "notificationRefundSucceeded": "Refund completed",
+  "notificationRefundFailed": "Refund needs attention",
+  "notificationRefundManualRequired": "Refund is being handled manually",
+  "notificationRefundAmount": "Refund amount: {amount} TJS",
+  "@notificationRefundAmount": { "placeholders": { "amount": { "type": "String" } } },
+  "@appTitle": {
+    "description": "App name shown in headers"
+  },
+  "onboardingTitle": "Welcome to ChinaShop TJ",
+  "@onboardingTitle": {
+    "description": "Onboarding welcome header"
+  },
+  "onboardingSubtitle": "Shop from China, delivered to Tajikistan",
+  "@onboardingSubtitle": {
+    "description": "Onboarding subtitle"
+  },
+  "selectLanguage": "Select your language",
+  "@selectLanguage": {
+    "description": "Language selection prompt on onboarding screen"
+  },
+  "continueButton": "Continue",
+  "@continueButton": {
+    "description": "Primary continue/next button label"
+  },
+  "phoneLabel": "Phone number",
+  "@phoneLabel": {
+    "description": "Label for phone number input"
+  },
+  "phoneHint": "+992XXXXXXXXX",
+  "@phoneHint": {
+    "description": "Placeholder hint for phone input (E.164 format)"
+  },
+  "sendOtpButton": "Send code",
+  "@sendOtpButton": {
+    "description": "Button to request OTP SMS"
+  },
+  "otpLabel": "Verification code",
+  "@otpLabel": {
+    "description": "Label for OTP code input"
+  },
+  "otpHint": "6-digit code",
+  "@otpHint": {
+    "description": "Placeholder hint for OTP input"
+  },
+  "verifyButton": "Verify",
+  "@verifyButton": {
+    "description": "Button to verify OTP code"
+  },
+  "homeTitle": "Home",
+  "@homeTitle": {
+    "description": "Home screen app bar title"
+  },
+  "catalogTitle": "Catalog",
+  "@catalogTitle": {
+    "description": "Catalog screen app bar title"
+  },
+  "categoryTitle": "Category",
+  "@categoryTitle": {
+    "description": "Category screen app bar title"
+  },
+  "productTitle": "Product",
+  "@productTitle": {
+    "description": "Product detail screen app bar title"
+  },
+  "cartTitle": "Cart",
+  "@cartTitle": {
+    "description": "Cart screen app bar title"
+  },
+  "cartEmpty": "Your cart is empty",
+  "@cartEmpty": {
+    "description": "Message shown when cart has no items"
+  },
+  "cartDiscount": "Discount",
+  "@cartDiscount": {
+    "description": "Cart footer discount row label"
+  },
+  "cartPromoLine": "Discounts already applied",
+  "@cartPromoLine": {
+    "description": "Cart promo banner text"
+  },
+  "cartFxLine": "≈ {cny} ¥ · rate locked at order",
+  "@cartFxLine": {
+    "description": "FX rate info line in cart footer",
+    "placeholders": {
+      "cny": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutTitle": "Checkout",
+  "@checkoutTitle": {
+    "description": "Checkout screen app bar title"
+  },
+  "ordersTitle": "My Orders",
+  "@ordersTitle": {
+    "description": "Orders list screen app bar title"
+  },
+  "orderDetailTitle": "Order Details",
+  "@orderDetailTitle": {
+    "description": "Order detail screen app bar title"
+  },
+  "favoritesTitle": "Favorites",
+  "@favoritesTitle": {
+    "description": "Favorites screen app bar title"
+  },
+  "profileTitle": "Profile",
+  "@profileTitle": {
+    "description": "Profile screen app bar title"
+  },
+  "profileAnonymous": "User",
+  "@profileAnonymous": {
+    "description": "Fallback display name for profile hero when name is null"
+  },
+  "profileEditCta": "Edit",
+  "@profileEditCta": {
+    "description": "Edit profile button label in profile hero card"
+  },
+  "profileNameLabel": "Full name",
+  "@profileNameLabel": {
+    "description": "Name field label in profile edit form"
+  },
+  "profilePhoneLabel": "Phone",
+  "@profilePhoneLabel": {
+    "description": "Phone field label in profile edit form"
+  },
+  "profileEditTitle": "Edit Profile",
+  "@profileEditTitle": {
+    "description": "Title of edit profile screen"
+  },
+  "profileEditSaved": "Profile updated",
+  "@profileEditSaved": {
+    "description": "Success snackbar after profile edit"
+  },
+  "languageLabel": "Language",
+  "@languageLabel": {
+    "description": "Language preference label in profile"
+  },
+  "saveButton": "Save",
+  "@saveButton": {
+    "description": "Generic save button label"
+  },
+  "logoutButton": "Log out",
+  "@logoutButton": {
+    "description": "Logout button label"
+  },
+  "loadingText": "Loading...",
+  "@loadingText": {
+    "description": "Generic loading indicator text"
+  },
+  "errorGeneric": "Something went wrong. Please try again.",
+  "@errorGeneric": {
+    "description": "Generic error message fallback"
+  },
+  "errorNetwork": "Network error. Check your connection.",
+  "@errorNetwork": {
+    "description": "Network/connectivity error message"
+  },
+  "priceLabel": "Price",
+  "@priceLabel": {
+    "description": "Price label used near PriceTag widgets"
+  },
+  "addToCart": "Add to cart",
+  "@addToCart": {
+    "description": "Add to cart button on product screen"
+  },
+  "removeFromCart": "Remove",
+  "@removeFromCart": {
+    "description": "Remove item from cart button label"
+  },
+  "quantity": "Quantity",
+  "@quantity": {
+    "description": "Quantity label for cart items"
+  },
+  "orderStatus": "Status",
+  "@orderStatus": {
+    "description": "Order status label in order detail"
+  },
+  "orderTotal": "Total",
+  "@orderTotal": {
+    "description": "Order total label"
+  },
+  "shipmentStage": "Shipment stage",
+  "@shipmentStage": {
+    "description": "Shipment tracking stage label"
+  },
+  "placeOrderButton": "Place order",
+  "@placeOrderButton": {
+    "description": "Submit order button on checkout screen"
+  },
+  "payNowButton": "Pay now",
+  "@payNowButton": {
+    "description": "Initiate payment button on checkout screen"
+  },
+  "addToFavorites": "Add to favorites",
+  "@addToFavorites": {
+    "description": "Add product to favorites button"
+  },
+  "removeFromFavorites": "Remove from favorites",
+  "@removeFromFavorites": {
+    "description": "Remove product from favorites"
+  },
+  "favoritesEmpty": "No favorites yet",
+  "@favoritesEmpty": {
+    "description": "Empty state message on favorites screen"
+  },
+  "noOrders": "No orders yet",
+  "@noOrders": {
+    "description": "Empty state message on orders list"
+  },
+  "searchHint": "Search products...",
+  "@searchHint": {
+    "description": "Search input placeholder in catalog"
+  },
+  "allCategories": "All categories",
+  "@allCategories": {
+    "description": "Filter chip to show all categories"
+  },
+  "selectAddress": "Select delivery address",
+  "@selectAddress": {
+    "description": "Address selector label on checkout screen"
+  },
+  "addAddress": "Add address",
+  "@addAddress": {
+    "description": "FAB label to add a new address on profile screen"
+  },
+  "addressLabel": "Address",
+  "@addressLabel": {
+    "description": "Address section header in profile"
+  },
+  "retryButton": "Retry",
+  "@retryButton": {
+    "description": "Retry button in error widget"
+  },
+  "trackingTitle": "Tracking",
+  "@trackingTitle": {
+    "description": "Shipment tracking section header"
+  },
+  "variantLabel": "Variant",
+  "@variantLabel": {
+    "description": "Variant selector label on product screen"
+  },
+  "enterPhoneTitle": "Enter your phone number",
+  "@enterPhoneTitle": {
+    "description": "Auth screen title for phone entry step"
+  },
+  "enterOtpTitle": "Enter verification code",
+  "@enterOtpTitle": {
+    "description": "Auth screen title for OTP entry step"
+  },
+  "sentOtpSubtitle": "We sent a 6-digit code to {phone}",
+  "@sentOtpSubtitle": {
+    "description": "Subtitle shown after OTP SMS sent",
+    "placeholders": {
+      "phone": {
+        "type": "String",
+        "description": "Phone number the code was sent to"
+      }
+    }
+  },
+  "sendSmsSubtitle": "We will send you a verification code via SMS.",
+  "@sendSmsSubtitle": {
+    "description": "Subtitle on phone entry step explaining SMS will be sent"
+  },
+  "sentOtpSubtitlePrefix": "We sent an SMS to ",
+  "@sentOtpSubtitlePrefix": {
+    "description": "Leading text of the OTP-step subtitle, followed by the bold phone number and a Change link"
+  },
+  "resendCode": "Resend code",
+  "@resendCode": {
+    "description": "Button to request a new OTP code"
+  },
+  "changePhoneLink": "Change",
+  "@changePhoneLink": {
+    "description": "Inline link on the OTP step to go back and edit the phone number"
+  },
+  "resendCodeIn": "Resend in {seconds}",
+  "@resendCodeIn": {
+    "description": "Resend countdown label shown while the resend cooldown is active",
+    "placeholders": {
+      "seconds": {
+        "type": "String",
+        "description": "Remaining cooldown formatted as m:ss"
+      }
+    }
+  },
+  "authLegalText": "By continuing, you agree to the Terms and Privacy Policy",
+  "@authLegalText": {
+    "description": "Legal disclaimer footer on the phone-entry auth step"
+  },
+  "errorEnterPhone": "Please enter your phone number",
+  "@errorEnterPhone": {
+    "description": "Validation error when phone field is empty"
+  },
+  "errorEnterCode": "Please enter the verification code",
+  "@errorEnterCode": {
+    "description": "Validation error when OTP field is empty"
+  },
+  "profileSetupStep": "Step 3 of 3 · Almost done",
+  "@profileSetupStep": {
+    "description": "Step indicator label on the post-OTP profile setup screen"
+  },
+  "profileSetupTitle": "Let's get acquainted",
+  "@profileSetupTitle": {
+    "description": "Title of the post-OTP profile setup (name+email) screen"
+  },
+  "profileSetupSubtitle": "Fill in your profile — needed for receipts, notifications, and support.",
+  "@profileSetupSubtitle": {
+    "description": "Subtitle of the post-OTP profile setup screen"
+  },
+  "nameLabel": "Your name",
+  "@nameLabel": {
+    "description": "Label for the name field on profile setup"
+  },
+  "nameHint": "Farrukh Raufov",
+  "@nameHint": {
+    "description": "Placeholder text for the name field on profile setup"
+  },
+  "emailLabel": "Email address",
+  "@emailLabel": {
+    "description": "Label for the email field on profile setup"
+  },
+  "emailHint": "farrukh@example.com",
+  "@emailHint": {
+    "description": "Placeholder text for the email field on profile setup"
+  },
+  "emailHelpText": "We need your email to send e-receipts and order confirmations.",
+  "@emailHelpText": {
+    "description": "Hint text below the email field on profile setup"
+  },
+  "profileSetupCta": "Done, let's shop! →",
+  "@profileSetupCta": {
+    "description": "CTA button on the profile setup screen"
+  },
+  "errorEnterName": "Please enter your name",
+  "@errorEnterName": {
+    "description": "Validation error when name field is empty on profile setup"
+  },
+  "errorEnterEmail": "Please enter a valid email address",
+  "@errorEnterEmail": {
+    "description": "Validation error when email field is empty or invalid on profile setup"
+  },
+  "welcomeTitle": "Welcome, {name}!",
+  "@welcomeTitle": {
+    "description": "Title on the post-profile-setup welcome screen",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "description": "The user's first name"
+      }
+    }
+  },
+  "welcomeSubtitle": "Your account is ready. Locked-in somoni prices and delivery to Tajikistan await you.",
+  "@welcomeSubtitle": {
+    "description": "Subtitle on the post-profile-setup welcome screen"
+  },
+  "welcomeCta": "Go to the shop →",
+  "@welcomeCta": {
+    "description": "CTA button on the post-profile-setup welcome screen"
+  },
+  "categories": "Categories",
+  "@categories": {
+    "description": "Home screen categories section header"
+  },
+  "newArrivals": "New Arrivals",
+  "@newArrivals": {
+    "description": "Home screen new arrivals section header"
+  },
+  "seeAll": "See all",
+  "@seeAll": {
+    "description": "Link to see full list in a section"
+  },
+  "browseCatalog": "Browse catalog",
+  "@browseCatalog": {
+    "description": "CTA button on empty states (cart, favorites) to navigate to catalog"
+  },
+  "allFilter": "All",
+  "@allFilter": {
+    "description": "Filter chip to show all products (no category filter)"
+  },
+  "noProductsFound": "No products found",
+  "@noProductsFound": {
+    "description": "Empty state when catalog search returns no results"
+  },
+  "noProductsInCategory": "No products in this category",
+  "@noProductsInCategory": {
+    "description": "Empty state on category screen when no products exist"
+  },
+  "selectVariant": "Select variant",
+  "@selectVariant": {
+    "description": "Label for variant selector on product screen"
+  },
+  "addedToCart": "Added to cart!",
+  "@addedToCart": {
+    "description": "SnackBar confirmation after adding product to cart"
+  },
+  "goToCart": "Go to cart",
+  "@goToCart": {
+    "description": "SnackBar action label to navigate to the cart after adding a product"
+  },
+  "subtotalLabel": "Subtotal",
+  "@subtotalLabel": {
+    "description": "Subtotal price label in cart"
+  },
+  "itemCount": "{count, plural, =1{{count} item} other{{count} items}}",
+  "@itemCount": {
+    "description": "Number of items in cart with plural form",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "description": "Number of items"
+      }
+    }
+  },
+  "checkoutButton": "Checkout",
+  "@checkoutButton": {
+    "description": "Checkout CTA button in cart screen"
+  },
+  "orderSummary": "Order Summary",
+  "@orderSummary": {
+    "description": "Order summary section header on checkout screen"
+  },
+  "deliveryAddress": "Delivery Address",
+  "@deliveryAddress": {
+    "description": "Delivery address section header on checkout screen"
+  },
+  "pickupInformation": "After checkout, our administrator will assign a pickup point and share collection details with you.",
+  "@pickupInformation": {
+    "description": "Retail checkout explanation that pickup point is assigned by staff"
+  },
+  "noSavedAddresses": "No saved addresses. Add one in Profile.",
+  "@noSavedAddresses": {
+    "description": "Message shown on checkout when no address is saved"
+  },
+  "goToProfile": "Go to Profile",
+  "@goToProfile": {
+    "description": "Navigation button to profile screen from checkout"
+  },
+  "processing": "Processing...",
+  "@processing": {
+    "description": "Loading text while order is being placed"
+  },
+  "placeOrderAndPay": "Place order & Pay",
+  "@placeOrderAndPay": {
+    "description": "Final order placement button on checkout screen"
+  },
+  "continuePayment": "Continue payment",
+  "@continuePayment": {
+    "description": "Button to resume payment for an order placed but not yet paid (status=created)"
+  },
+  "paymentDisclaimer": "By placing the order, payment will be processed via Korti Milli.",
+  "@paymentDisclaimer": {
+    "description": "Payment disclaimer text on checkout screen"
+  },
+  "qty": "Qty",
+  "@qty": {
+    "description": "Quantity abbreviation label in order summary rows"
+  },
+  "orderNumber": "Order #{id}",
+  "@orderNumber": {
+    "description": "Order list item title with order ID",
+    "placeholders": {
+      "id": {
+        "type": "String",
+        "description": "Order ID"
+      }
+    }
+  },
+  "orderPlacedLabel": "Placed",
+  "@orderPlacedLabel": {
+    "description": "Label for order placement date in order detail"
+  },
+  "orderItemsLabel": "Items",
+  "@orderItemsLabel": {
+    "description": "Items section header in order detail"
+  },
+  "trackingNotAvailable": "Tracking information not yet available.",
+  "@trackingNotAvailable": {
+    "description": "Message shown when no tracking info exists yet"
+  },
+  "currentStageLabel": "Current stage",
+  "@currentStageLabel": {
+    "description": "Label for current shipment stage in tracking view"
+  },
+  "trackingCodeLabel": "Tracking code",
+  "@trackingCodeLabel": {
+    "description": "Label for shipment tracking code"
+  },
+  "stageHistoryLabel": "Stage history",
+  "@stageHistoryLabel": {
+    "description": "Label for historical shipment stage list"
+  },
+  "deliveryAddresses": "Delivery Addresses",
+  "@deliveryAddresses": {
+    "description": "Delivery addresses section header in profile"
+  },
+  "noAddressesSaved": "No addresses saved. Tap + to add one.",
+  "@noAddressesSaved": {
+    "description": "Empty state text when no addresses have been saved"
+  },
+  "defaultLabel": "Default",
+  "@defaultLabel": {
+    "description": "Badge shown on the default address"
+  },
+  "addAddressSheetTitle": "Add Address",
+  "@addAddressSheetTitle": {
+    "description": "Title of the bottom sheet for adding an address"
+  },
+  "regionField": "Region",
+  "@regionField": {
+    "description": "Input field label for region/province"
+  },
+  "cityField": "City",
+  "@cityField": {
+    "description": "Input field label for city"
+  },
+  "addressLineField": "Address line",
+  "@addressLineField": {
+    "description": "Input field label for street address line"
+  },
+  "phoneField": "Phone",
+  "@phoneField": {
+    "description": "Input field label for phone number in address form"
+  },
+  "commentField": "Comment (optional)",
+  "@commentField": {
+    "description": "Optional comment field in address form"
+  },
+  "saveAddressButton": "Save address",
+  "@saveAddressButton": {
+    "description": "Submit button in the add address bottom sheet"
+  },
+  "selectRegionHint": "Select region",
+  "@selectRegionHint": {
+    "description": "Dropdown hint text for region selector in address form"
+  },
+  "selectCityHint": "Select city",
+  "@selectCityHint": {
+    "description": "Dropdown hint text for city selector in address form"
+  },
+  "phoneFromProfileHint": "From profile",
+  "@phoneFromProfileHint": {
+    "description": "Hint text for read-only phone field in address form, indicating the value comes from the user profile"
+  },
+  "fieldRequiredError": "Required",
+  "@fieldRequiredError": {
+    "description": "Inline validation error shown under an empty required form field"
+  },
+  "addressPhoneInvalidError": "Enter a valid phone number",
+  "@addressPhoneInvalidError": {
+    "description": "Inline validation error shown when the address phone field digits do not match the expected length"
+  },
+  "addFirstAddressCta": "Add your first address",
+  "@addFirstAddressCta": {
+    "description": "Empty-state action label prompting the user to add their first saved address"
+  },
+  "addAddressTitle": "Add address",
+  "@addAddressTitle": {
+    "description": "App bar title for the address form screen in add mode"
+  },
+  "editAddressTitle": "Edit address",
+  "@editAddressTitle": {
+    "description": "App bar title for the address form screen in edit mode"
+  },
+  "addressLoadError": "Could not load this address",
+  "@addressLoadError": {
+    "description": "Shown on the edit-address screen when the address cannot be resolved (cold deep-link, stale cache, or fetch failure) — the form is blocked from rendering until it loads"
+  },
+  "addAddressCta": "Add an address",
+  "@addAddressCta": {
+    "description": "CTA label that routes the user to the add-address screen (e.g. from checkout's empty address state)"
+  },
+  "deleteAddressConfirmTitle": "Delete this address?",
+  "@deleteAddressConfirmTitle": {
+    "description": "Title of the confirmation dialog shown before permanently deleting a saved address"
+  },
+  "deleteAddressConfirmBody": "This address will be permanently removed.",
+  "@deleteAddressConfirmBody": {
+    "description": "Body text of the delete-address confirmation dialog"
+  },
+  "deleteConfirmButton": "Delete",
+  "@deleteConfirmButton": {
+    "description": "Destructive confirm button label in the delete-address confirmation dialog"
+  },
+  "cancelButton": "Cancel",
+  "@cancelButton": {
+    "description": "Generic cancel action label, e.g. dismissing a confirmation dialog"
+  },
+  "errOutOfStock": "This item is out of stock",
+  "@errOutOfStock": {
+    "description": "Error message for errOutOfStock"
+  },
+  "errProductUnavailable": "This product is unavailable",
+  "@errProductUnavailable": {
+    "description": "Error message for errProductUnavailable"
+  },
+  "errCartEmpty": "Your cart is empty",
+  "@errCartEmpty": {
+    "description": "Error message for errCartEmpty"
+  },
+  "errOrderAlreadyPaid": "This order is already paid",
+  "@errOrderAlreadyPaid": {
+    "description": "Error message for errOrderAlreadyPaid"
+  },
+  "errOrderNotFound": "Order not found",
+  "@errOrderNotFound": {
+    "description": "Error message for errOrderNotFound"
+  },
+  "errPaymentNotFound": "Payment not found",
+  "@errPaymentNotFound": {
+    "description": "Error message for errPaymentNotFound"
+  },
+  "errNoFxRate": "Prices are temporarily unavailable. Please try again later.",
+  "@errNoFxRate": {
+    "description": "Error message for errNoFxRate"
+  },
+  "errValidation": "Please check the entered data",
+  "@errValidation": {
+    "description": "Error message for errValidation"
+  },
+  "errUnauthorized": "Please sign in again",
+  "@errUnauthorized": {
+    "description": "Error message for errUnauthorized"
+  },
+  "errForbidden": "You don't have access to this",
+  "@errForbidden": {
+    "description": "Error message for errForbidden"
+  },
+  "errConflict": "This action conflicts with the current state",
+  "@errConflict": {
+    "description": "Error message for errConflict"
+  },
+  "errEmailInUse": "This email is already linked to another account",
+  "@errEmailInUse": {
+    "description": "Profile setup: submitted email already belongs to another account"
+  },
+  "errPhoneInUse": "This phone number is already linked to another account",
+  "@errPhoneInUse": {
+    "description": "Profile setup: submitted phone already belongs to another account"
+  },
+  "errNotFound": "Not found",
+  "@errNotFound": {
+    "description": "Error message for errNotFound"
+  },
+  "stageAwaiting": "Awaiting",
+  "@stageAwaiting": {
+    "description": "Shipment stage label: stageAwaiting"
+  },
+  "stageCnWarehouse": "At China warehouse",
+  "@stageCnWarehouse": {
+    "description": "Shipment stage label: stageCnWarehouse"
+  },
+  "stageInTransit": "In transit",
+  "@stageInTransit": {
+    "description": "Shipment stage label: stageInTransit"
+  },
+  "stageTjWarehouse": "At Tajikistan warehouse",
+  "@stageTjWarehouse": {
+    "description": "Shipment stage label: stageTjWarehouse"
+  },
+  "stageReady": "Ready for pickup",
+  "@stageReady": {
+    "description": "Shipment stage label: stageReady"
+  },
+  "stageDelivered": "Delivered",
+  "@stageDelivered": {
+    "description": "Shipment stage label: stageDelivered"
+  },
+  "statusCreated": "Created",
+  "@statusCreated": {
+    "description": "Order status: statusCreated"
+  },
+  "statusPaid": "Paid",
+  "@statusPaid": {
+    "description": "Order status: statusPaid"
+  },
+  "statusOrdered": "Ordered",
+  "@statusOrdered": {
+    "description": "Order status: statusOrdered"
+  },
+  "statusCancelled": "Cancelled",
+  "@statusCancelled": {
+    "description": "Order status: statusCancelled"
+  },
+  "statusRefunded": "Refunded",
+  "@statusRefunded": {
+    "description": "Order status: statusRefunded"
+  },
+  "b2bApplyTitle": "Wholesale application",
+  "@b2bApplyTitle": {
+    "description": "B2B apply screen AppBar title"
+  },
+  "b2bApplyIntro": "Fill in your shop details to get access to the factory wholesale catalog.",
+  "@b2bApplyIntro": {
+    "description": "B2B apply screen intro lede"
+  },
+  "b2bShopNameLabel": "Shop name",
+  "@b2bShopNameLabel": {
+    "description": "B2B form: shop name field label"
+  },
+  "b2bShopNameHint": "e.g. Dukoni Somon",
+  "@b2bShopNameHint": {
+    "description": "B2B form: shop name field hint"
+  },
+  "b2bTaxIdLabel": "Tax ID / INN",
+  "@b2bTaxIdLabel": {
+    "description": "B2B form: tax id field label"
+  },
+  "b2bTaxIdHint": "Free text",
+  "@b2bTaxIdHint": {
+    "description": "B2B form: tax id field hint"
+  },
+  "b2bCityLabel": "City",
+  "@b2bCityLabel": {
+    "description": "B2B form: city field label"
+  },
+  "b2bCityHint": "e.g. Dushanbe",
+  "@b2bCityHint": {
+    "description": "B2B form: city field hint"
+  },
+  "b2bVolumeLabel": "Expected volume (optional)",
+  "@b2bVolumeLabel": {
+    "description": "B2B form: expected volume field label"
+  },
+  "b2bVolumeHint": "e.g. 200 pcs/month",
+  "@b2bVolumeHint": {
+    "description": "B2B form: expected volume field hint"
+  },
+  "b2bPhoneFromProfile": "Contact phone: {phone} — taken from your profile",
+  "@b2bPhoneFromProfile": {
+    "description": "B2B form: read-only phone helper note",
+    "placeholders": {
+      "phone": {
+        "type": "String",
+        "example": "+992900000000"
+      }
+    }
+  },
+  "b2bSubmitApplication": "Submit application",
+  "@b2bSubmitApplication": {
+    "description": "B2B form primary CTA"
+  },
+  "b2bSubmitting": "Submitting…",
+  "@b2bSubmitting": {
+    "description": "B2B form CTA processing state"
+  },
+  "b2bFieldRequired": "Fill in this field",
+  "@b2bFieldRequired": {
+    "description": "B2B form validation: empty required field"
+  },
+  "b2bFieldTooShort": "Too short",
+  "@b2bFieldTooShort": {
+    "description": "B2B form validation: value too short"
+  },
+  "b2bFieldTooLong": "Too long",
+  "@b2bFieldTooLong": {
+    "description": "B2B form validation: value too long"
+  },
+  "b2bStatusTitle": "Wholesale access",
+  "@b2bStatusTitle": {
+    "description": "B2B status screen AppBar title"
+  },
+  "b2bStatusPending": "Under review",
+  "@b2bStatusPending": {
+    "description": "B2B status label: pending"
+  },
+  "b2bStatusApproved": "Approved",
+  "@b2bStatusApproved": {
+    "description": "B2B status label: approved"
+  },
+  "b2bStatusRejected": "Rejected",
+  "@b2bStatusRejected": {
+    "description": "B2B status label: rejected"
+  },
+  "b2bStatusSuspended": "Suspended",
+  "@b2bStatusSuspended": {
+    "description": "B2B status label: suspended"
+  },
+  "b2bPendingBody": "Your application is under review. We will notify you of the decision.",
+  "@b2bPendingBody": {
+    "description": "B2B status body: pending"
+  },
+  "b2bApprovedBody": "Access to the wholesale catalog is open.",
+  "@b2bApprovedBody": {
+    "description": "B2B status body: approved"
+  },
+  "b2bRejectionLabel": "Reason for rejection:",
+  "@b2bRejectionLabel": {
+    "description": "B2B status: rejection note label"
+  },
+  "b2bSuspendedBody": "Access is suspended. Please contact support.",
+  "@b2bSuspendedBody": {
+    "description": "B2B status body: suspended"
+  },
+  "b2bSubmittedData": "Application details",
+  "@b2bSubmittedData": {
+    "description": "B2B status: submitted-data card heading"
+  },
+  "b2bReapply": "Submit application again",
+  "@b2bReapply": {
+    "description": "B2B status: re-apply CTA (rejected only)"
+  },
+  "b2bNoApplicationTitle": "You have not applied yet",
+  "@b2bNoApplicationTitle": {
+    "description": "B2B status: empty-state heading"
+  },
+  "b2bNoApplicationBody": "Apply to get access to the factory wholesale catalog.",
+  "@b2bNoApplicationBody": {
+    "description": "B2B status: empty-state body"
+  },
+  "errorApplicationExists": "You already have an active application.",
+  "@errorApplicationExists": {
+    "description": "Error: SELLER_APPLICATION_ALREADY_EXISTS"
+  },
+  "errSellerNotVerified": "Wholesale verification is required.",
+  "@errSellerNotVerified": {
+    "description": "Error: SELLER_NOT_VERIFIED"
+  },
+  "wholesaleCatalogTitle": "Wholesale",
+  "@wholesaleCatalogTitle": {
+    "description": "Wholesale catalog screen AppBar title"
+  },
+  "wholesaleCatalogEmptyTitle": "No products yet",
+  "@wholesaleCatalogEmptyTitle": {
+    "description": "Wholesale catalog empty state heading"
+  },
+  "wholesaleCatalogEmptyBody": "Factory products will appear here soon",
+  "@wholesaleCatalogEmptyBody": {
+    "description": "Wholesale catalog empty state body"
+  },
+  "wholesaleLockedTitle": "Access restricted",
+  "@wholesaleLockedTitle": {
+    "description": "Wholesale locked/403 screen heading"
+  },
+  "wholesaleLockedBody": "Wholesale prices are available to verified sellers only. Submit an application for verification.",
+  "@wholesaleLockedBody": {
+    "description": "Wholesale locked/403 screen body"
+  },
+  "wholesaleLockedCta": "Submit application",
+  "@wholesaleLockedCta": {
+    "description": "CTA on wholesale locked screen"
+  },
+  "wholesaleMoqLabel": "Minimum order:",
+  "@wholesaleMoqLabel": {
+    "description": "MOQ label on product detail screen"
+  },
+  "wholesaleQuantityLabel": "Quantity",
+  "@wholesaleQuantityLabel": {
+    "description": "Quantity selector label on wholesale product detail"
+  },
+  "wholesaleAddToCart": "Add to cart",
+  "@wholesaleAddToCart": {
+    "description": "Add-to-cart button on wholesale product detail"
+  },
+  "wholesaleAddedToCart": "Added to cart",
+  "@wholesaleAddedToCart": {
+    "description": "Success snackbar after adding wholesale product to cart"
+  },
+  "wholesaleTiersTitle": "Price table",
+  "@wholesaleTiersTitle": {
+    "description": "Tier table section title on product detail"
+  },
+  "wholesaleTierSelectHint": "Tap a tier to set quantity",
+  "@wholesaleTierSelectHint": {
+    "description": "Hint under the tier table prompting the user to tap a tier to pick the order volume"
+  },
+  "wholesaleTierQtyCol": "from, pcs",
+  "@wholesaleTierQtyCol": {
+    "description": "Tier table column header: min quantity"
+  },
+  "wholesaleTierPriceCol": "Price / pc",
+  "@wholesaleTierPriceCol": {
+    "description": "Tier table column header: unit price"
+  },
+  "wholesaleFactoryLabel": "Factory:",
+  "@wholesaleFactoryLabel": {
+    "description": "Factory row label on product detail"
+  },
+  "factoryCountryLabel": "Country:",
+  "@factoryCountryLabel": {
+    "description": "Country label on factory profile"
+  },
+  "factoryMoqRange": "MOQ: {min} – {max} pcs",
+  "@factoryMoqRange": {
+    "description": "MOQ range label on factory profile",
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "description": "Minimum MOQ quantity"
+      },
+      "max": {
+        "type": "int",
+        "description": "Maximum MOQ quantity"
+      }
+    }
+  },
+  "factoryDescriptionLabel": "About the factory",
+  "@factoryDescriptionLabel": {
+    "description": "Description section label on factory profile"
+  },
+  "factoryContactsLabel": "Contacts",
+  "@factoryContactsLabel": {
+    "description": "Contacts section label on factory profile"
+  },
+  "factoryNotFound": "Factory not found",
+  "@factoryNotFound": {
+    "description": "Empty state when factory is not found (404)"
+  },
+
+  "wholesaleCartTitle": "Wholesale Cart",
+  "@wholesaleCartTitle": {
+    "description": "Wholesale cart screen AppBar title"
+  },
+  "wholesaleCartEmptyTitle": "Cart is empty",
+  "@wholesaleCartEmptyTitle": {
+    "description": "Wholesale cart empty state heading"
+  },
+  "wholesaleCartEmptyBody": "Add products from the factory catalog",
+  "@wholesaleCartEmptyBody": {
+    "description": "Wholesale cart empty state body"
+  },
+  "wholesaleCheckoutTitle": "Checkout",
+  "@wholesaleCheckoutTitle": {
+    "description": "Wholesale checkout screen AppBar title"
+  },
+  "wholesaleOrderSummaryHeading": "Order summary",
+  "@wholesaleOrderSummaryHeading": {
+    "description": "Wholesale checkout order summary section heading"
+  },
+  "wholesaleCheckoutCta": "Confirm and pay",
+  "@wholesaleCheckoutCta": {
+    "description": "Wholesale checkout primary CTA button"
+  },
+  "wholesaleOrdersTitle": "My wholesale orders",
+  "@wholesaleOrdersTitle": {
+    "description": "Wholesale orders list screen AppBar title"
+  },
+  "wholesaleOrdersEmptyTitle": "No orders yet",
+  "@wholesaleOrdersEmptyTitle": {
+    "description": "Wholesale orders empty state heading"
+  },
+  "wholesaleOrdersEmptyBody": "Place your first order from the factory catalog",
+  "@wholesaleOrdersEmptyBody": {
+    "description": "Wholesale orders empty state body"
+  },
+  "wholesaleOrderDetailTitle": "Order",
+  "@wholesaleOrderDetailTitle": {
+    "description": "Wholesale order detail screen AppBar prefix"
+  },
+  "wholesaleOrderItemsHeading": "Order items",
+  "@wholesaleOrderItemsHeading": {
+    "description": "Wholesale order detail items section heading"
+  },
+  "wholesaleTierApplied": "Tier from {qty} pcs.",
+  "@wholesaleTierApplied": {
+    "description": "Applied tier label (ICU placeholder qty: int)",
+    "placeholders": {
+      "qty": {
+        "type": "int",
+        "description": "Applied tier minimum quantity"
+      }
+    }
+  },
+  "wholesaleMoqError": "Minimum {qty} pcs.",
+  "@wholesaleMoqError": {
+    "description": "MOQ inline error on cart item (ICU placeholder qty: int)",
+    "placeholders": {
+      "qty": {
+        "type": "int",
+        "description": "Minimum order quantity"
+      }
+    }
+  },
+  "wholesaleOrderTotalLabel": "Total",
+  "@wholesaleOrderTotalLabel": {
+    "description": "Total label in checkout and order detail"
+  },
+  "wholesaleFactorySubtotalLabel": "Factory subtotal",
+  "@wholesaleFactorySubtotalLabel": {
+    "description": "Per-factory subtotal in wholesale checkout"
+  },
+  "wholesaleCartCheckoutCta": "Place order",
+  "@wholesaleCartCheckoutCta": {
+    "description": "Sticky bottom bar CTA in wholesale cart"
+  },
+  "wholesaleCartItemRemoveConfirm": "Remove item from cart?",
+  "@wholesaleCartItemRemoveConfirm": {
+    "description": "Swipe-delete confirmation snackbar undo label"
+  },
+  "wholesaleCartItemRemoveUndo": "Undo",
+  "@wholesaleCartItemRemoveUndo": {
+    "description": "Snackbar undo action after removing cart item"
+  },
+  "wholesaleCheckoutMoqError": "Minimum {qty} units for {name}. Update your cart.",
+  "@wholesaleCheckoutMoqError": {
+    "description": "Checkout MOQ_NOT_MET error banner (ICU qty: int, name: String)",
+    "placeholders": {
+      "qty": {
+        "type": "int",
+        "description": "Minimum order quantity"
+      },
+      "name": {
+        "type": "String",
+        "description": "Product name"
+      }
+    }
+  },
+  "wholesaleCheckoutReturnToCart": "Return to cart",
+  "@wholesaleCheckoutReturnToCart": {
+    "description": "Button on checkout MOQ error — return to cart"
+  },
+  "wholesaleCheckoutProcessing": "Processing...",
+  "@wholesaleCheckoutProcessing": {
+    "description": "Button label while checkout is processing"
+  },
+  "wholesaleCheckoutProductUnavailable": "One or more products are unavailable. Update your cart.",
+  "@wholesaleCheckoutProductUnavailable": {
+    "description": "Checkout FACTORY_PRODUCT_UNAVAILABLE error banner"
+  },
+  "wholesaleCheckoutRetry": "Try again",
+  "@wholesaleCheckoutRetry": {
+    "description": "Generic checkout error retry button"
+  },
+  "wholesaleMoqChip": "min. {moq} pcs.",
+  "@wholesaleMoqChip": {
+    "description": "MOQ chip on wholesale product card and detail (ICU placeholder moq: int)",
+    "placeholders": {
+      "moq": {
+        "type": "int",
+        "description": "Minimum order quantity"
+      }
+    }
+  },
+  "wholesaleCartRemoveItemA11y": "Remove item",
+  "@wholesaleCartRemoveItemA11y": {
+    "description": "Accessibility label for swipe-delete in wholesale cart"
+  },
+  "wholesaleCartDecreaseQtyA11y": "Decrease quantity",
+  "@wholesaleCartDecreaseQtyA11y": {
+    "description": "Accessibility label for the minus button in wholesale cart"
+  },
+  "wholesaleCartIncreaseQtyA11y": "Increase quantity",
+  "@wholesaleCartIncreaseQtyA11y": {
+    "description": "Accessibility label for the plus button in wholesale cart"
+  },
+  "channelChoiceTitle": "Select mode",
+  "@channelChoiceTitle": {
+    "description": "Channel choice screen heading"
+  },
+  "channelChoiceSubtitle": "Choose how you want to use ChinaShop",
+  "@channelChoiceSubtitle": {
+    "description": "Channel choice screen subtitle"
+  },
+  "channelB2cLabel": "Retail shopping",
+  "@channelB2cLabel": {
+    "description": "B2C channel card label"
+  },
+  "channelB2cSublabel": "Shop for yourself",
+  "@channelB2cSublabel": {
+    "description": "B2C channel card sublabel"
+  },
+  "channelB2bLabel": "Wholesale",
+  "@channelB2bLabel": {
+    "description": "B2B channel card label"
+  },
+  "channelB2bSublabel": "Buy in bulk from factories",
+  "@channelB2bSublabel": {
+    "description": "B2B channel card sublabel"
+  },
+  "channelSkip": "Skip for now",
+  "@channelSkip": {
+    "description": "Skip channel choice button"
+  },
+  "b2bHomeTitle": "B2B Home",
+  "@b2bHomeTitle": {
+    "description": "B2B shell home tab title"
+  },
+  "b2bNavHome": "Home",
+  "@b2bNavHome": {
+    "description": "B2B bottom nav: home"
+  },
+  "b2bNavCatalog": "Catalog",
+  "@b2bNavCatalog": {
+    "description": "B2B bottom nav: wholesale catalog"
+  },
+  "b2bNavCart": "Cart",
+  "@b2bNavCart": {
+    "description": "B2B bottom nav: wholesale cart"
+  },
+  "b2bNavOrders": "Orders",
+  "@b2bNavOrders": {
+    "description": "B2B bottom nav: wholesale orders"
+  },
+  "b2bNavProfile": "Profile",
+  "@b2bNavProfile": {
+    "description": "B2B bottom nav: profile"
+  },
+  "b2bChannelBannerTitle": "Wholesale channel",
+  "@b2bChannelBannerTitle": {
+    "description": "B2B home channel banner title"
+  },
+  "b2bChannelBannerSubtitle": "You are in wholesale mode",
+  "@b2bChannelBannerSubtitle": {
+    "description": "B2B home channel banner subtitle"
+  },
+  "b2bHomeViewFactories": "Browse factories",
+  "@b2bHomeViewFactories": {
+    "description": "B2B home button to browse factories"
+  },
+  "b2bHomeMyOrders": "My wholesale orders",
+  "@b2bHomeMyOrders": {
+    "description": "B2B home button to view wholesale orders"
+  },
+  "switchChannelTitle": "Switch channel",
+  "@switchChannelTitle": {
+    "description": "Switch channel action title"
+  },
+  "switchToB2cLabel": "Switch to retail",
+  "@switchToB2cLabel": {
+    "description": "Switch to B2C channel label"
+  },
+  "switchToB2cSubtitle": "Return to regular shopping",
+  "@switchToB2cSubtitle": {
+    "description": "Switch to B2C channel subtitle"
+  },
+  "profileWholesaleMenuLabel": "Wholesale goods",
+  "@profileWholesaleMenuLabel": {
+    "description": "Profile menu row label for wholesale entry"
+  },
+  "switchToB2bLabel": "Switch to wholesale",
+  "@switchToB2bLabel": {
+    "description": "Switch to B2B channel label"
+  },
+  "switchToB2bSubtitle": "Access factory catalog and bulk pricing",
+  "@switchToB2bSubtitle": {
+    "description": "Switch to B2B channel subtitle"
+  },
+  "switchChannelConfirmTitle": "Confirm channel switch",
+  "@switchChannelConfirmTitle": {
+    "description": "Channel switch confirmation title"
+  },
+  "switchChannelConfirmB2c": "Switch to retail mode?",
+  "@switchChannelConfirmB2c": {
+    "description": "Channel switch confirm dialog: switching to B2C"
+  },
+  "switchChannelConfirmB2b": "Switch to wholesale mode?",
+  "@switchChannelConfirmB2b": {
+    "description": "Channel switch confirm dialog: switching to B2B"
+  },
+  "switchChannelCartNote": "Your cart items are preserved when switching channels.",
+  "@switchChannelCartNote": {
+    "description": "Note shown in channel switch confirmation that carts are preserved"
+  },
+  "switchChannelConfirmButton": "Confirm",
+  "@switchChannelConfirmButton": {
+    "description": "Confirm channel switch button"
+  },
+  "switchChannelCancel": "Cancel",
+  "@switchChannelCancel": {
+    "description": "Cancel channel switch button"
+  },
+  "channelSectionTitle": "Channel",
+  "@channelSectionTitle": {
+    "description": "Channel section heading in B2B profile"
+  },
+  "b2bApplicationStatusTitle": "Application status",
+  "@b2bApplicationStatusTitle": {
+    "description": "B2B application status section title in B2B profile"
+  },
+  "paymentReceiptTitle": "Payment & receipt",
+  "@paymentReceiptTitle": {
+    "description": "Payment receipt flow screen AppBar title"
+  },
+  "paymentAmountLabel": "Amount to pay",
+  "@paymentAmountLabel": {
+    "description": "Label above the amount in the receipt flow"
+  },
+  "paymentOpenLinkCta": "Open payment link",
+  "@paymentOpenLinkCta": {
+    "description": "Button that opens the pay.dc.tj payment link externally"
+  },
+  "paymentLinkOpenedNote": "Opening the link does NOT confirm payment. After paying, upload your receipt below.",
+  "@paymentLinkOpenedNote": {
+    "description": "Explicit note that opening the link is not payment confirmation"
+  },
+  "paymentNoLinkError": "Payment link is unavailable. Please go back and try again.",
+  "@paymentNoLinkError": {
+    "description": "Shown when the backend returned no redirect link"
+  },
+  "paymentLinkOpenFailed": "Could not open the payment link. Please try again.",
+  "@paymentLinkOpenFailed": {
+    "description": "Shown when launchUrl fails to open the payment link"
+  },
+  "receiptStepTitle": "Upload your receipt",
+  "@receiptStepTitle": {
+    "description": "Heading for the receipt upload step"
+  },
+  "receiptStepSubtitle": "Attach a screenshot or photo of your payment confirmation.",
+  "@receiptStepSubtitle": {
+    "description": "Subtitle explaining what to upload"
+  },
+  "receiptChooseFromGallery": "Choose from gallery",
+  "@receiptChooseFromGallery": {
+    "description": "Button to pick a receipt image from the gallery"
+  },
+  "receiptTakePhoto": "Take a photo",
+  "@receiptTakePhoto": {
+    "description": "Button to capture a receipt photo with the camera"
+  },
+  "receiptUploading": "Uploading receipt…",
+  "@receiptUploading": {
+    "description": "Progress label while the receipt is uploading"
+  },
+  "receiptAwaitingReviewTitle": "Receipt received",
+  "@receiptAwaitingReviewTitle": {
+    "description": "Title shown after a successful receipt upload"
+  },
+  "receiptAwaitingReviewBody": "Your receipt is being checked. We will confirm your payment after review.",
+  "@receiptAwaitingReviewBody": {
+    "description": "Body explaining the receipt is awaiting AI/manual review"
+  },
+  "receiptUploadFailed": "Receipt upload failed. Please try a different image.",
+  "@receiptUploadFailed": {
+    "description": "Generic receipt upload error"
+  },
+  "receiptDoneCta": "Done",
+  "@receiptDoneCta": {
+    "description": "Button to leave the receipt flow after upload succeeds"
+  },
+  "receiptRetryCta": "Try again",
+  "@receiptRetryCta": {
+    "description": "Button to retry picking a receipt after an error"
+  },
+  "errDuplicateReceipt": "This receipt has already been uploaded.",
+  "@errDuplicateReceipt": {
+    "description": "Error: DUPLICATE_RECEIPT"
+  },
+  "errReceiptFileInvalid": "Invalid file. Upload a JPEG, PNG or WebP image under 5 MB.",
+  "@errReceiptFileInvalid": {
+    "description": "Error: RECEIPT_FILE_INVALID"
+  },
+  "errPaymentNotPending": "This payment is no longer awaiting a receipt.",
+  "@errPaymentNotPending": {
+    "description": "Error: PAYMENT_NOT_PENDING"
+  },
+  "errReceiptNotFound": "Payment not found.",
+  "errReceiptUploadSuspended": "Receipt uploads are temporarily blocked for a few hours because unrelated images were submitted repeatedly.",
+  "@errReceiptNotFound": {
+    "description": "Error: RECEIPT_NOT_FOUND"
+  },
+  "receiptCheckingTitle": "Verifying receipt…",
+  "@receiptCheckingTitle": {
+    "description": "Title shown while AI is verifying the uploaded receipt (checking status)"
+  },
+  "receiptCheckingBody": "We are checking your receipt. This usually takes a few seconds.",
+  "@receiptCheckingBody": {
+    "description": "Body text shown under the spinner while the receipt is being verified"
+  },
+  "receiptApprovedTitle": "Payment confirmed",
+  "@receiptApprovedTitle": {
+    "description": "Title shown when the receipt was approved (approved_by_ai or approved_manually)"
+  },
+  "receiptApprovedBody": "Your payment has been confirmed. Thank you!",
+  "@receiptApprovedBody": {
+    "description": "Body text shown after the receipt is approved"
+  },
+  "receiptNeedsReviewTitle": "Manual review in progress",
+  "@receiptNeedsReviewTitle": {
+    "description": "Title shown when the receipt requires manual operator review"
+  },
+  "receiptNeedsReviewBody": "Our team is reviewing your receipt. We will notify you shortly.",
+  "@receiptNeedsReviewBody": {
+    "description": "Body text shown when the receipt is queued for manual review"
+  },
+  "receiptRejectedTitle": "Receipt rejected",
+  "@receiptRejectedTitle": {
+    "description": "Title shown when the receipt was rejected"
+  },
+  "receiptRejectedBody": "Your receipt could not be verified. Please upload a clearer image.",
+  "@receiptRejectedBody": {
+    "description": "Body text asking the user to re-upload after rejection"
+  },
+  "receiptRejectedReasonLabel": "Reason:",
+  "@receiptRejectedReasonLabel": {
+    "description": "Label shown before the admin rejection reason in the rejected state card (ADMREC-04)"
+  },
+  "receiptRejectedReasonAmountMismatch": "The amount on the receipt doesn't match your order. Check it and upload a new receipt.",
+  "@receiptRejectedReasonAmountMismatch": {
+    "description": "Client-safe reason shown for an AI rejection categorized as amount mismatch (no exact amounts exposed)"
+  },
+  "receiptRejectedReasonReferenceMissing": "We couldn't find the transaction number on the receipt. Please upload a clearer receipt.",
+  "@receiptRejectedReasonReferenceMissing": {
+    "description": "Client-safe reason shown for an AI rejection categorized as missing transaction reference"
+  },
+  "receiptRejectedReasonDuplicate": "This receipt has already been used for another payment. Please upload the correct receipt.",
+  "@receiptRejectedReasonDuplicate": {
+    "description": "Client-safe reason shown for an AI rejection categorized as a duplicate receipt"
+  },
+  "receiptRejectedReasonGeneric": "The receipt didn't pass automatic verification. Please check it and upload a new one.",
+  "receiptRejectedReasonNotReceipt": "This image does not contain a payment receipt. Upload a screenshot or photo of the actual receipt.",
+  "@receiptRejectedReasonGeneric": {
+    "description": "Client-safe generic reason shown for an AI rejection with no specific category"
+  },
+  "receiptRejectedUploadNewCta": "Upload a new receipt",
+  "@receiptRejectedUploadNewCta": {
+    "description": "Primary CTA on the rejected state card to upload a replacement receipt for the same payment (ADMREC-04)"
+  },
+  "paymentUnderReview": "Payment under review",
+  "@paymentUnderReview": {
+    "description": "Non-actionable status shown instead of pay button when customer has uploaded a receipt under AI/manual review"
+  },
+  "b2bBandLogoLabel": "ChinaShop Business",
+  "@b2bBandLogoLabel": {
+    "description": "Brand label in the B2B dark header band top row (logo + text)"
+  },
+  "b2bBandGreeting": "Welcome to ChinaShop Business!",
+  "@b2bBandGreeting": {
+    "description": "Greeting headline in the B2B dark header band"
+  },
+  "b2bBandGreetingSubtitle": "Wholesale direct from factories · price per unit drops with volume",
+  "@b2bBandGreetingSubtitle": {
+    "description": "Muted subtitle line below the greeting in the B2B dark header band"
+  },
+  "b2bBandSearchHint": "Article, product or factory…",
+  "@b2bBandSearchHint": {
+    "description": "Placeholder text inside the non-functional search bar in the B2B dark header band"
+  },
+  "b2bSwitchPillBuyerLabel": "Buyer",
+  "@b2bSwitchPillBuyerLabel": {
+    "description": "Inactive B2C segment label in the channel-switch pill inside the B2B header band"
+  },
+  "b2bSwitchPillWholesaleLabel": "Wholesale B2B",
+  "@b2bSwitchPillWholesaleLabel": {
+    "description": "Active B2B segment label in the channel-switch pill inside the B2B header band"
+  },
+  "b2bKpiOrdersLabel": "Orders / month",
+  "@b2bKpiOrdersLabel": {
+    "description": "KPI tile label: orders this calendar month count"
+  },
+  "b2bKpiTurnoverLabel": "Turnover",
+  "@b2bKpiTurnoverLabel": {
+    "description": "KPI tile label: total TJS turnover this calendar month"
+  },
+  "b2bKpiSellerStatusLabel": "Seller status",
+  "@b2bKpiSellerStatusLabel": {
+    "description": "KPI tile label: seller verification status"
+  },
+  "b2bKpiVerifiedValue": "verified",
+  "@b2bKpiVerifiedValue": {
+    "description": "Static value shown in the seller-status KPI tile for verified sellers"
+  },
+  "ordersTabAll": "All",
+  "@ordersTabAll": {
+    "description": "Orders screen filter tab: show all orders"
+  },
+  "ordersTabInTransit": "In transit",
+  "@ordersTabInTransit": {
+    "description": "Orders screen filter tab: orders in transit (paid through ready statuses)"
+  },
+  "ordersTabPaid": "Paid",
+  "@ordersTabPaid": {
+    "description": "Orders screen filter tab: orders with paid or placed_on_pinduoduo status"
+  },
+  "ordersTabDelivered": "Delivered",
+  "@ordersTabDelivered": {
+    "description": "Orders screen filter tab: orders with delivered status"
+  },
+  "pickupCodeTitle": "Pickup code",
+  "@pickupCodeTitle": {
+    "description": "App bar title for the pickup QR/code screen"
+  },
+  "pickupCodeHelper": "Show this code to the pickup point employee",
+  "@pickupCodeHelper": {
+    "description": "Helper text under the QR and grouped pickup code"
+  },
+  "pickupCodeOfflineBanner": "No connection — showing the saved code",
+  "@pickupCodeOfflineBanner": {
+    "description": "Muted banner shown when the pickup code comes from the secure-storage cache during a network failure fallback"
+  },
+  "pickupCodeDeliveredTitle": "Order delivered",
+  "@pickupCodeDeliveredTitle": {
+    "description": "Heading shown on the pickup code screen when the order is already delivered"
+  },
+  "pickupCodeDeliveredBody": "Thank you for your purchase!",
+  "@pickupCodeDeliveredBody": {
+    "description": "Body shown on the pickup code screen when the order is already delivered"
+  },
+  "showPickupCodeBtn": "Show pickup code",
+  "@showPickupCodeBtn": {
+    "description": "CTA on a ready order detail screen that opens the pickup QR/code screen"
+  },
+  "readyForPickupBadge": "Ready for pickup",
+  "@readyForPickupBadge": {
+    "description": "Badge shown on ready orders in the orders list"
+  },
+  "deliveredCelebrationTitle": "Congratulations on your purchase!",
+  "@deliveredCelebrationTitle": {
+    "description": "One-shot delivered celebration overlay title shown when an order is first observed in delivered state"
+  },
+  "characteristicsLabel": "Characteristics",
+  "@characteristicsLabel": {
+    "description": "Section header for product characteristics"
+  },
+  "modelOptionsLabel": "Model options",
+  "@modelOptionsLabel": {
+    "description": "Section header for variant/model selection"
+  },
+  "baseModelLabel": "Base model",
+  "@baseModelLabel": {
+    "description": "Label for the base/default model variant"
+  },
+  "selectedModelLabel": "Selected model",
+  "@selectedModelLabel": {
+    "description": "Label for the currently selected model variant"
+  },
+  "soldOutLabel": "Sold out",
+  "@soldOutLabel": {
+    "description": "Label shown when a variant is out of stock"
+  },
+  "priceReasonLabel": "Price changes because this model has different characteristics.",
+  "@priceReasonLabel": {
+    "description": "Explanation text under model options explaining price differences"
+  },
+  "attrColor": "Color",
+  "@attrColor": {
+    "description": "Attribute label for color"
+  },
+  "attrSize": "Size",
+  "@attrSize": {
+    "description": "Attribute label for size"
+  },
+  "attrMaterial": "Material",
+  "@attrMaterial": {
+    "description": "Attribute label for material"
+  },
+  "attrWeight": "Weight",
+  "@attrWeight": {
+    "description": "Attribute label for weight"
+  },
+  "attrBrand": "Brand",
+  "@attrBrand": {
+    "description": "Attribute label for brand"
+  },
+  "attrModel": "Model",
+  "@attrModel": {
+    "description": "Attribute label for model"
+  },
+  "attrCapacity": "Capacity",
+  "@attrCapacity": {
+    "description": "Attribute label for capacity"
+  },
+  "attrStorage": "Memory",
+  "@attrStorage": {
+    "description": "Attribute label for storage/memory"
+  },
+  "orderTrackBtn": "Track",
+  "@orderTrackBtn": {
+    "description": "Order card action button: track order"
+  },
+  "orderHelpBtn": "Help",
+  "@orderHelpBtn": {
+    "description": "Order card action button: get help"
+  },
+  "orderDetailsBtn": "Details",
+  "@orderDetailsBtn": {
+    "description": "Order card action button: view details"
+  },
+  "orderAgainBtn": "Order again",
+  "@orderAgainBtn": {
+    "description": "Order card action button: reorder the same items"
+  },
+  "orderReviewBtn": "Leave review",
+  "@orderReviewBtn": {
+    "description": "Order card action button: leave a review"
+  },
+  "b2bSectionFactories": "Factories",
+  "@b2bSectionFactories": {
+    "description": "B2B home section header for factory categories"
+  },
+  "b2bSectionSeeAll": "All ›",
+  "@b2bSectionSeeAll": {
+    "description": "B2B home section 'see all' link"
+  },
+  "b2bSectionPopular": "Popular wholesale",
+  "@b2bSectionPopular": {
+    "description": "B2B home section header for popular wholesale products"
+  },
+  "b2bSectionCatalog": "Catalog ›",
+  "@b2bSectionCatalog": {
+    "description": "B2B home section 'catalog' link"
+  },
+  "b2bFactoryElectronics": "Electronics",
+  "@b2bFactoryElectronics": {
+    "description": "B2B factory category: electronics"
+  },
+  "b2bFactoryClothing": "Clothing",
+  "@b2bFactoryClothing": {
+    "description": "B2B factory category: clothing"
+  },
+  "b2bFactoryHome": "Home",
+  "@b2bFactoryHome": {
+    "description": "B2B factory category: home goods"
+  },
+  "b2bFactoryCount": "{count} factories",
+  "@b2bFactoryCount": {
+    "description": "B2B factory category count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reviewsSectionTitle": "Reviews",
+  "@reviewsSectionTitle": {
+    "description": "Header for the product-screen review preview section"
+  },
+  "seeAllReviewsBtn": "All reviews ({count})",
+  "@seeAllReviewsBtn": {
+    "description": "Button navigating from the preview section to the full review list, with review count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reviewsEmptyTitle": "No reviews yet",
+  "@reviewsEmptyTitle": {
+    "description": "Empty state title when a product has zero reviews and the user is eligible to review"
+  },
+  "reviewsEmptySubtitle": "Be the first to tell us about the product",
+  "@reviewsEmptySubtitle": {
+    "description": "Empty state subtitle when a product has zero reviews and the user is eligible to review"
+  },
+  "allReviewsTitle": "All reviews",
+  "@allReviewsTitle": {
+    "description": "AppBar title on the full review list screen"
+  },
+  "sortNewestChip": "Newest",
+  "@sortNewestChip": {
+    "description": "Review list sort chip: newest first"
+  },
+  "sortRatingChip": "By rating",
+  "@sortRatingChip": {
+    "description": "Review list sort chip: by rating"
+  },
+  "hasPhotosChip": "With photos",
+  "@hasPhotosChip": {
+    "description": "Review list filter chip: only reviews with photos"
+  },
+  "resetFiltersBtn": "Reset filters",
+  "@resetFiltersBtn": {
+    "description": "Button to clear all active review list filters"
+  },
+  "reviewsEmptyFilteredTitle": "No reviews match these filters",
+  "@reviewsEmptyFilteredTitle": {
+    "description": "Empty state title when the review list has active filters and zero results"
+  },
+  "reviewsEmptyFilteredSubtitle": "Try removing some filters",
+  "@reviewsEmptyFilteredSubtitle": {
+    "description": "Empty state subtitle when the review list has active filters and zero results"
+  },
+  "loadReviewsError": "Failed to load reviews",
+  "@loadReviewsError": {
+    "description": "Error message shown when the review list fails to load"
+  },
+  "reviewCountLabel": "{count} reviews",
+  "@reviewCountLabel": {
+    "description": "Review count label shown next to the rating summary",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reviewEntryCta": "Rate product",
+  "@reviewEntryCta": {
+    "description": "Entry CTA button shown on the order item and product screen when the user is eligible to review (D-01)"
+  },
+  "reviewFormTitleCreate": "Rate product",
+  "@reviewFormTitleCreate": {
+    "description": "AppBar title on the review form screen in create mode"
+  },
+  "reviewFormTitleEdit": "Edit review",
+  "@reviewFormTitleEdit": {
+    "description": "AppBar title on the review form screen in edit mode"
+  },
+  "reviewSubmitCta": "Submit",
+  "@reviewSubmitCta": {
+    "description": "Submit button on the review form screen"
+  },
+  "reviewSubmitting": "Submitting…",
+  "@reviewSubmitting": {
+    "description": "Label shown above the submit button while the review submission is in flight"
+  },
+  "reviewPhotoSourceCamera": "Camera",
+  "@reviewPhotoSourceCamera": {
+    "description": "Photo source bottom-sheet option: camera"
+  },
+  "reviewPhotoSourceGallery": "Gallery",
+  "@reviewPhotoSourceGallery": {
+    "description": "Photo source bottom-sheet option: gallery"
+  },
+  "reviewTextHint": "Tell us about the product (optional)",
+  "@reviewTextHint": {
+    "description": "Hint text for the review text field"
+  },
+  "reviewPhotoHelper": "Up to 5 photos",
+  "@reviewPhotoHelper": {
+    "description": "Helper text under the review form's photo grid"
+  },
+  "reviewRatingRequiredValidation": "Rate the product — at least one star",
+  "@reviewRatingRequiredValidation": {
+    "description": "Validation message shown when the user tries to submit a review without selecting a star rating"
+  },
+  "reviewTextTooLongValidation": "No more than 1000 characters",
+  "@reviewTextTooLongValidation": {
+    "description": "Validation message shown when the review text exceeds the 1000-character cap"
+  },
+  "reviewRatingLabel1": "Poor",
+  "@reviewRatingLabel1": {
+    "description": "Label shown under the star input for a 1-star rating"
+  },
+  "reviewRatingLabel2": "Fair",
+  "@reviewRatingLabel2": {
+    "description": "Label shown under the star input for a 2-star rating"
+  },
+  "reviewRatingLabel3": "Okay",
+  "@reviewRatingLabel3": {
+    "description": "Label shown under the star input for a 3-star rating"
+  },
+  "reviewRatingLabel4": "Good",
+  "@reviewRatingLabel4": {
+    "description": "Label shown under the star input for a 4-star rating"
+  },
+  "reviewRatingLabel5": "Excellent",
+  "@reviewRatingLabel5": {
+    "description": "Label shown under the star input for a 5-star rating"
+  },
+  "errReviewNotEligible": "You are not eligible to review this product",
+  "@errReviewNotEligible": {
+    "description": "Error message for the REVIEW_NOT_ELIGIBLE API error code"
+  },
+  "errReviewNotFound": "Review not found",
+  "@errReviewNotFound": {
+    "description": "Error message for the REVIEW_NOT_FOUND API error code"
+  },
+  "errReviewPhotoInvalid": "One of the photos was rejected — replace it and try again",
+  "@errReviewPhotoInvalid": {
+    "description": "Error message for the REVIEW_PHOTO_INVALID API error code"
+  },
+  "errReviewPhotoLimit": "Too many photos — up to 5 allowed",
+  "@errReviewPhotoLimit": {
+    "description": "Error message for the REVIEW_PHOTO_LIMIT API error code"
+  },
+  "errReviewAlreadyExists": "You have already reviewed this product",
+  "@errReviewAlreadyExists": {
+    "description": "Inline banner message for the REVIEW_ALREADY_EXISTS API error code on the review form screen"
+  },
+  "reviewOpenExistingCta": "Open my review",
+  "@reviewOpenExistingCta": {
+    "description": "Action button on the REVIEW_ALREADY_EXISTS banner"
+  },
+  "reviewRetryCta": "Retry",
+  "@reviewRetryCta": {
+    "description": "Retry action on the review submit error snackbar"
+  },
+  "reviewDiscardTitle": "Discard changes?",
+  "@reviewDiscardTitle": {
+    "description": "Title of the discard-confirmation dialog shown when leaving a dirty review form"
+  },
+  "reviewDiscardBody": "Your rating, text, and photos will be lost.",
+  "@reviewDiscardBody": {
+    "description": "Body of the discard-confirmation dialog shown when leaving a dirty review form"
+  },
+  "reviewDiscardStay": "Stay",
+  "@reviewDiscardStay": {
+    "description": "Stay action on the discard-confirmation dialog"
+  },
+  "reviewDiscardExit": "Exit",
+  "@reviewDiscardExit": {
+    "description": "Exit action on the discard-confirmation dialog"
+  },
+  "reviewSubmitCelebrationTitle": "Thanks for your review!",
+  "@reviewSubmitCelebrationTitle": {
+    "description": "Title shown in the celebration overlay after a successful review submission"
+  },
+  "reportSheetTitle": "Report review",
+  "@reportSheetTitle": {
+    "description": "Title of the report bottom sheet"
+  },
+  "reportCategorySpam": "Spam or advertising",
+  "@reportCategorySpam": {
+    "description": "Report reason category: spam_advertising"
+  },
+  "reportCategoryAbusive": "Abusive content",
+  "@reportCategoryAbusive": {
+    "description": "Report reason category: abusive_content"
+  },
+  "reportCategoryFalse": "False or irrelevant information",
+  "@reportCategoryFalse": {
+    "description": "Report reason category: false_or_irrelevant"
+  },
+  "reportCategoryPhoto": "Inappropriate photo",
+  "@reportCategoryPhoto": {
+    "description": "Report reason category: inappropriate_photo"
+  },
+  "reportCategoryOther": "Other",
+  "@reportCategoryOther": {
+    "description": "Report reason category: other"
+  },
+  "reportCommentHint": "Comment (optional)",
+  "@reportCommentHint": {
+    "description": "Hint text for the optional comment field on the report bottom sheet"
+  },
+  "reportSubmitBtn": "Send report",
+  "@reportSubmitBtn": {
+    "description": "Submit button on the report bottom sheet"
+  },
+  "reportSubmittedToast": "Report sent",
+  "@reportSubmittedToast": {
+    "description": "Snackbar shown after a successful report submission"
+  },
+  "reportedMarkerLabel": "You reported this",
+  "@reportedMarkerLabel": {
+    "description": "Persistent footer marker on a review card the current user has reported"
+  },
+  "reportMenuItem": "Report",
+  "@reportMenuItem": {
+    "description": "Menu item to report another user's review"
+  },
+  "editReportMenuItem": "Edit report",
+  "@editReportMenuItem": {
+    "description": "Menu item to edit an existing report on a review"
+  }
+}
